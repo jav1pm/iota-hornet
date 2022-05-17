@@ -13,6 +13,8 @@ async function run() {
 
     const message = await client.message()
         .seed(IOTA_SEED_SECRET)
+        // get tokens --> https://faucet.chrysalis-devnet.iota.cafe/
+        // if dust is not allowed --> min 1Mi
         .output('atoi1qzrsnzh6nj28824u9kslxcu0jjtr8nndx3wz0cvhhpqtkyp5qjwestg36r3', 1000000)
         .submit();
 

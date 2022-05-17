@@ -15,7 +15,7 @@ async function run() {
       .get();
   
     console.log(addresses);
-  }
+}
   
 run()
   .then(() => console.log("Done"))
