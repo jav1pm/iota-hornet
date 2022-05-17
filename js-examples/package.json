@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@iota/client": "^2.2.3",
+    "dotenv": "^16.0.1",
+    "mqtt": "^4.3.7"
+  }
+}
