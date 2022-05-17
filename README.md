@@ -1,6 +1,6 @@
 # IOTA interaction using Node.js
 
-This repository contains some examples using Node.js binding to the [IOTA client library](https://github.com/iotaledger/iota.rs)
+This repository contains some examples using Node.js binding to the [IOTA client library](https://github.com/iotaledger/iota.rs).
 
 
 
