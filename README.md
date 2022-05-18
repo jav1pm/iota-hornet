@@ -26,6 +26,7 @@ To run this project, you will need to add the following environment variables to
 ## Authors
 
 - [@Javiiiis](https://github.com/Javiiiis)
+- [@fmurciag](https://www.github.com/fmurciag)
 
 
 ![Logo](https://invezz.com/wp-content/uploads/2021/08/iota-logo-black.png)
