@@ -1,0 +1,15 @@
+{
+  "name": "prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "06-simpleMessage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/client": "^2.2.3",
+    "crypto-js": "^4.1.1"
+  }
+}
