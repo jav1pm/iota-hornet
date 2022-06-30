@@ -1,0 +1,32 @@
+{
+    "name": "arduino-iota",
+    "description": "Send data to the IOTA Tangle using Indexation Payload and Arduino Nano 33 IoT",
+    "scripts": {
+        "portscan": "serialport-list",
+        "send": "env-cmd  -f .env nodemon sendMessage.js",
+        "receive": "env-cmd  -f .env nodemon receiveMessage.js",
+        "genSeed": "env-cmd  -f .env nodemon generateSeed.js",
+        "genAddresses": "env-cmd  -f .env nodemon generateAddresses.js",
+        "receiveExample": "env-cmd  -f .env nodemon getMessagesExample.js"
+    },
+    "keywords": [
+        "Arduino",
+        "IOTA",
+        "Tangle",
+        "Indexation Paylaod"
+    ],
+    "author": {
+        "name": "Francisco Javier Perez Martinez",
+        "email": "javi18pm@gmail.com"
+    },
+    "dependencies": {
+        "@iota/client": "2.2.4",
+        "@serialport/list":"^10.4.0",
+        "serialport":"^10.4.0",
+        "crypto-js":"^4.1.1",
+        "env-cmd":"^10.1.0"
+    },
+    "devDependencies": {
+        "nodemon":"^2.0.18"
+    }
+}
