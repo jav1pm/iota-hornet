@@ -4,6 +4,7 @@ function run() {
     console.log(seed);
 
     const { ClientBuilder } = require('@iota/client');
+    // client will connect to testnet by default
     const client = new ClientBuilder().build();
 
     const mnemonic = client.generateMnemonic();

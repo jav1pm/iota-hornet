@@ -1,3 +1,7 @@
+/**
+ * En este caso, deberemos conectarnos al nodo de pruebas de la devnet ya que utilizamos tokens.
+ */
+
 require('dotenv').config();
 
 async function run() {
@@ -8,7 +12,7 @@ async function run() {
     // Get the seed from environment variable
     const IOTA_SEED_SECRET = process.env.IOTA_SEED_SECRET;
 
-    // client will connect to testnet by default
+    // client will connect to devnet by default
     const client = new ClientBuilder().build();
 
     const message = await client.message()

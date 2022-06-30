@@ -1,11 +1,17 @@
+require('dotenv').config();
+
 async function run() {
     const { ClientBuilder } = require('@iota/client');
+    const hornet_node = process.env.CUSTOM_NODE;
 
-    // client will connect to testnet by default
-    const client = new ClientBuilder().build();
+    // client will connect to custom node
+    const client = new ClientBuilder()
+        .node(hornet_node) // custom node
+        .localPow(true) // pow is done locally
+        .build();
 
     // get message data by message id
-    const messageId = "38e8393cd345608b7124f7a41cd09e109244e1aaae4a665ad8eaf592cce4c75b";
+    const messageId = "0d5d93ce9327fdf748a1b729724e4c330f0757d5e6f0178e68833cf7bb16a489";
     const message_data = await client.getMessage().data(messageId);
     const message_metadata = await client.getMessage().metadata(messageId);
     console.log(message_metadata);
