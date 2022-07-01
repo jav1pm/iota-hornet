@@ -4,10 +4,7 @@
     "scripts": {
         "portscan": "serialport-list",
         "send": "env-cmd  -f .env nodemon sendMessage.js",
-        "receive": "env-cmd  -f .env nodemon receiveMessage.js",
-        "genSeed": "env-cmd  -f .env nodemon generateSeed.js",
-        "genAddresses": "env-cmd  -f .env nodemon generateAddresses.js",
-        "receiveExample": "env-cmd  -f .env nodemon getMessagesExample.js"
+        "get": "env-cmd  -f .env nodemon getMessage.js"
     },
     "keywords": [
         "Arduino",
