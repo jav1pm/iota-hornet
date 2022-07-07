@@ -1,6 +1,6 @@
 # IOTA 
 
-Este repositorio contiene algunos ejemplos usando node.js y un pequeño proyecto que publica y obtiene mensajes cifrados al tangle de iota utilizando arduino.
+Este repositorio contiene algunos ejemplos usando node.js para aprender como emitir y recibir una transacción en la red de IOTA así como de un pequeño proyecto que publica y obtiene mensajes cifrados al tangle de iota utilizando arduino.
 
 
 ## Autores
