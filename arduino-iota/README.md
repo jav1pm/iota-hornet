@@ -1,6 +1,6 @@
 # Arduino - IOTA
 
-Pequeña implementación utilizando un Arduino Nano 33 IOT (aunque se puede cualquier placa arduino con conexión serial)
+Pequeña implementación utilizando un **Arduino Nano 33 IOT** (aunque se puede cualquier placa arduino con conexión serial)
 en el que se puede enviar y obtener mensajes encriptados (AES) del Tangle de IOTA.
 
 ## Requisitos
@@ -29,6 +29,6 @@ npm i
 
 ## Despliegue
 
-- npm run **portscan**: Mostrar los puertos disponibles en tu máquina
-- npm run **send**: Ejecuta el script sendMessage.js
-- npm run **get**: Ejecuta el script getMessage.js
+- npm run `**portscan**`: Mostrar los puertos disponibles en tu máquina
+- npm run `**send**`: Ejecuta el script sendMessage.js
+- npm run `**get**: Ejecuta el script getMessage.js
