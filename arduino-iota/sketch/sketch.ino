@@ -23,6 +23,8 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   unsigned long currentMillis = millis();
+  float temperatura = 30.0;
+  float humedad = 55.0;
 
   if (currentMillis - previousMillis >= interval) {
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
@@ -32,10 +34,10 @@ void loop() {
 
     // Mostrar los datos obtenidos por el monitor serie
     Serial.print("temperatura: ");
-    Serial.print("30");
+    Serial.print(temperatura);
     Serial.print(", ");
     Serial.print("humedad: ");
-    Serial.print("27");
+    Serial.print(humedad);
     Serial.println();
 
     delay(20000);
