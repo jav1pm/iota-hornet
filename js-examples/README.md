@@ -20,12 +20,3 @@ Para ejecutar los ejemplos usando un nodo propio, se necesitan añadir las sigui
 - `CUSTOM_NODE`
 
 - `IOTA_SEED_SECRET`
-
-
-## Autores
-
-- [@Javiiiis](https://github.com/Javiiiis)
-- [@fmurciag](https://www.github.com/fmurciag)
-
-
-![Logo](https://invezz.com/wp-content/uploads/2021/08/iota-logo-black.png)
