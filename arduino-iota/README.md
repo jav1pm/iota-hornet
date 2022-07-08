@@ -6,7 +6,7 @@ en el que se puede enviar y obtener mensajes encriptados (AES) del Tangle de IOT
 ## Requisitos
 
 - Placa arduino
-- Ordenador con versiones de node.js: '10.x', '12.x', '14.x', '15.x', '16.x'
+- Versiones de node.js: '10.x', '12.x', '14.x', '15.x', '16.x'
 - Un archivo .env predefinido con las siguientes variables (mirar .env.example):
 
 
