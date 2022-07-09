@@ -15,7 +15,7 @@ Para desplegar, instalar las dependencias y probar cada código de ejemplo:
 
 ## Variables de entorno
 
-Para ejecutar los ejemplos usando un nodo propio, se necesitan añadir las siguientes variables:
+Para ejecutar los ejemplos usando un nodo propio, se necesitan añadir las siguientes variables de entorno (ver .env.example):
 
 - `CUSTOM_NODE`
 
