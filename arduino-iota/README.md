@@ -36,6 +36,7 @@ npm i
 ## Capturas
 
 <p align="center">
-    <img src="./assets/foto1.png">
+    <img src="./assets/envio.png">
     <img src="./assets/cifrado.png">
+    <img src="./assets/descifrado.png">
 </p>
