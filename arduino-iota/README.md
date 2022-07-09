@@ -32,3 +32,10 @@ npm i
 - npm run **portscan**: Mostrar los puertos disponibles en tu máquina
 - npm run **send**: Ejecuta el script sendMessage.js
 - npm run **get**: Ejecuta el script getMessage.js
+
+## Capturas
+
+<p align="center">
+    <img src="./assets/foto1.png">
+    <img src="./assets/cifrado.png">
+</p>
