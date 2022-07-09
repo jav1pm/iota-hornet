@@ -23,8 +23,8 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   unsigned long currentMillis = millis();
-  float temperatura = 30.0;
-  float humedad = 55.0;
+  int temperatura = random(0, 45);
+  int humedad = random(0, 100);
 
   if (currentMillis - previousMillis >= interval) {
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
