@@ -10,7 +10,7 @@ en el que se puede enviar y obtener mensajes encriptados (AES) del Tangle de IOT
 - Un archivo .env predefinido con las siguientes variables (mirar .env.example):
 
 
-    - `NODE`
+    - `CUSTOM_NODE`
 
     - `IOTA_SEED_SECRET`
 
