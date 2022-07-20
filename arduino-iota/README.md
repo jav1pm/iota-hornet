@@ -1,7 +1,7 @@
 # Arduino - IOTA
 
 Pequeña implementación utilizando un **`Arduino Nano 33 IOT`** (aunque se puede cualquier placa arduino con conexión serial)
-en el que se puede enviar y obtener mensajes encriptados (AES) del Tangle de IOTA.
+en el que se puede enviar y obtener mensajes encriptados (AES) del Tangle de IOTA mediante un índice dado (INDEX_MESSAGE).
 
 ## Requisitos
 
